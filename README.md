@@ -2,11 +2,9 @@
 popView include tableView ，alertView and textView 
 
 # popViewType
-typedef enum : NSUInteger{
     tableViewPopView ,  //a tableView in popView;
     alertPopView ,     //a alertView in popView ,including title and buttom(s);
     textViewPopView    //a textView in popView ,including buttom; 
-} popViewType;
 
 # GNSPopViewDelegate
 - (void)textViewBtnClick:(NSString *)text;     // popViewType  == textViewPopView
