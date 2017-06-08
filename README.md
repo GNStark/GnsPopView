@@ -3,8 +3,8 @@ popView include tableView ，alertView and textView
 
 # popViewType
     tableViewPopView ,  //a tableView in popView;
-    alertPopView ,     //a alertView in popView ,including title and buttom(s);
-    textViewPopView    //a textView in popView ,including buttom; 
+    alertPopView ,     //a alertView in popView ,including title and button(s);
+    textViewPopView    //a textView in popView ,including button; 
 
 # GNSPopViewDelegate
 - (void)textViewBtnClick:(NSString *)text;     // popViewType  == textViewPopView
@@ -17,3 +17,5 @@ popView include tableView ，alertView and textView
 # showPoint 
 you can let popView show from the point in screen;
 @property (assign,nonatomic) CGPoint showPoint;
+
+# You can change property like shadowViewBackgroundColor 、button's title、count and more
